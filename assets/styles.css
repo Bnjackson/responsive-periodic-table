@@ -17,16 +17,85 @@ body {
 
 }
 
-.row {
+.periodic-table {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 1%;
+}
 
+.row {
+    display: flex;
 }
 
 .cell {
-    height: 100px;
-    width: 100px;
-    border: 0.5px solid darkgrey;
+    width: 10vmin; 
+    height: 10vmin;
+    margin: 2px;
 }
 
 .element {
-
+    border: 0.5px solid darkgrey;
 }
+
+.element-atomic-number {
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.element-symbol, .element-name, .element-info {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.element-symbol {
+    font-weight: bold;
+    font-size: 1.4;
+}
+
+.element-name {
+    font-size: 0.7rem;
+}
+
+.element-info {
+    font-size: 0.6rem
+}
+
+/*
+ELEMENT CLASSES
+*/
+.nonmetal-halogen {
+    background-color: rgba(255, 255, 0, 0.3);
+}
+
+.Noble-Gas {
+    background-color: rgba(255, 152, 0, 0.2);
+}
+
+.transition-metal {
+    background-color: rgba(0, 128, 255, 0.2);
+}
+
+.post-transition-metal {
+    background-color: rgba(0, 255, 0, 0.2);
+}
+
+.metalloid {
+    background-color: rgba(140, 190, 0, 0.2);
+}
+
+.alkali-metal {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.earth-metal {
+    background-color: rgba(64, 64, 255, 0.2);
+}
+
+.lanthanide {
+    background-color: rgba(0, 255, 255, 0.25);
+}
+
+.actinide {
+    background-color: rgba(64, 255, 192, 0.25);
+}
+
