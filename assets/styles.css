@@ -44,12 +44,12 @@ body {
 
 .element-symbol, .element-name, .element-info {
     text-align: center;
-    margin-bottom: 2%;
+    margin-bottom: 1.5%;
 }
 
 .element-symbol {
     font-weight: bold;
-    font-size: 1.4;
+    font-size: 1.1rem;
 }
 
 .element-name {
@@ -99,3 +99,93 @@ ELEMENT CLASSES
     background-color: rgba(64, 255, 192, 0.25);
 }
 
+/*
+MEDIA QUERIES
+*/
+@media (max-width: 1300px) {
+    .element-atomic-number {
+        font-size: 0.8rem;
+    }
+    .element-symbol {
+        font-size: 1rem;
+    }
+    .element-name {
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 1150px) {
+    .cell {
+        height: 9vmin;
+    }
+    .element-name, .element-info {
+        display: none;
+    }
+    .element-atomic-number {
+        text-align: center;
+        margin-top: 15%;
+    }
+    .element-symbol {
+        margin-top: 15%;
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 1000px) {
+    .cell {
+        height: 8vmin;
+    }
+}
+@media (max-width: 800px) {
+    .cell {
+        height: 7vmin;
+    }
+    .element-symbol {
+        font-size: 1rem;
+    }
+}
+@media(max-width: 700px) {
+    .element-symbol {
+        font-size: 0.8rem;
+    }
+    .element-atomic-number {
+        font-size: 0.7rem;
+    }
+}
+@media(max-width: 600px) {
+    .cell {
+        height: 30px;
+        width: 30px;
+    }
+    .element-symbol {
+        margin-top: 0;
+        font-size: 0.6rem;
+    }
+    .element-atomic-number {
+        margin-top: 0;
+        font-size: 0.6rem;
+    }
+}
+@media(max-width: 400px) {
+    .cell {
+        height: 20px;
+        width: 20px;
+    }
+    .element-symbol {
+        font-size: 0.4rem;
+    }
+    .element-atomic-number {
+        font-size: 0.4rem;
+    }
+}
+@media(max-width: 400px) {
+    .cell {
+        height: 20px;
+        width: 20px;
+    }
+    .element-symbol {
+        font-size: 0.3rem;
+    }
+    .element-atomic-number {
+        font-size: 0.3rem;
+    }
+}
