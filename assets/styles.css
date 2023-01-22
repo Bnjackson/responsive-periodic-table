@@ -13,10 +13,6 @@ html, body {
 /*
 PERIODIC TABLE
 */
-body {
-
-}
-
 .periodic-table {
     width: 90%;
     margin: 0 auto;
@@ -187,5 +183,54 @@ MEDIA QUERIES
     }
     .element-atomic-number {
         font-size: 0.3rem;
+    }
+}
+
+@media (min-width: 1920px) {
+    /* .element-atomic-number {
+        font-size: ;
+    } */
+    .element-symbol {
+        font-size: 1.2rem;
+    }
+    .element-info {
+        font-size: 0.7rem;
+    }
+    .element-name {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 2200px) {
+    .element-atomic-number {
+        font-size: 1.1rem;
+    }
+    .element-symbol {
+        font-size: 1.4rem;
+        margin: 5% 0;
+    }
+    .element-info {
+        margin-top: 5%;
+        font-size: 0.9rem;
+    }
+    .element-name {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 2300px) {
+    .element-atomic-number {
+        font-size: 1.2rem;
+    }
+    .element-symbol {
+        font-size: 1.5rem;
+        margin: 5% 0;
+    }
+    .element-info {
+        margin-top: 5%;
+        font-size: 1rem;
+    }
+    .element-name {
+        font-size: 1.1rem;
     }
 }
